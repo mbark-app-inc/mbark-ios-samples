@@ -1,0 +1,377 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8BB3EB3F2705158B009A2A04 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB3EB3E2705158B009A2A04 /* AppDelegate.swift */; };
+		8BB3EB412705158B009A2A04 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB3EB402705158B009A2A04 /* SceneDelegate.swift */; };
+		8BB3EB432705158B009A2A04 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB3EB422705158B009A2A04 /* ViewController.swift */; };
+		8BB3EB462705158B009A2A04 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BB3EB442705158B009A2A04 /* Main.storyboard */; };
+		8BB3EB482705158C009A2A04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BB3EB472705158C009A2A04 /* Assets.xcassets */; };
+		8BB3EB4B2705158C009A2A04 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BB3EB492705158C009A2A04 /* LaunchScreen.storyboard */; };
+		8BB3EB56270519AC009A2A04 /* Mbark-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8BB3EB55270519AC009A2A04 /* Mbark-Info.plist */; };
+		8BE9CE2F27064F5500626FE8 /* Mbark in Frameworks */ = {isa = PBXBuildFile; productRef = 8BE9CE2E27064F5500626FE8 /* Mbark */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8BB3EB3B2705158B009A2A04 /* MbarkExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MbarkExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BB3EB3E2705158B009A2A04 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8BB3EB402705158B009A2A04 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8BB3EB422705158B009A2A04 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8BB3EB452705158B009A2A04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8BB3EB472705158C009A2A04 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8BB3EB4A2705158C009A2A04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8BB3EB4C2705158C009A2A04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BB3EB55270519AC009A2A04 /* Mbark-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Mbark-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8BB3EB382705158B009A2A04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BE9CE2F27064F5500626FE8 /* Mbark in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8BB3EB322705158B009A2A04 = {
+			isa = PBXGroup;
+			children = (
+				8BB3EB3D2705158B009A2A04 /* MbarkExample */,
+				8BB3EB3C2705158B009A2A04 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8BB3EB3C2705158B009A2A04 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8BB3EB3B2705158B009A2A04 /* MbarkExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8BB3EB3D2705158B009A2A04 /* MbarkExample */ = {
+			isa = PBXGroup;
+			children = (
+				8BB3EB3E2705158B009A2A04 /* AppDelegate.swift */,
+				8BB3EB402705158B009A2A04 /* SceneDelegate.swift */,
+				8BB3EB422705158B009A2A04 /* ViewController.swift */,
+				8BB3EB442705158B009A2A04 /* Main.storyboard */,
+				8BB3EB472705158C009A2A04 /* Assets.xcassets */,
+				8BB3EB492705158C009A2A04 /* LaunchScreen.storyboard */,
+				8BB3EB4C2705158C009A2A04 /* Info.plist */,
+				8BB3EB55270519AC009A2A04 /* Mbark-Info.plist */,
+			);
+			path = MbarkExample;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8BB3EB3A2705158B009A2A04 /* MbarkExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BB3EB4F2705158C009A2A04 /* Build configuration list for PBXNativeTarget "MbarkExample" */;
+			buildPhases = (
+				8BB3EB372705158B009A2A04 /* Sources */,
+				8BB3EB382705158B009A2A04 /* Frameworks */,
+				8BB3EB392705158B009A2A04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MbarkExample;
+			packageProductDependencies = (
+				8BE9CE2E27064F5500626FE8 /* Mbark */,
+			);
+			productName = MbarkExample;
+			productReference = 8BB3EB3B2705158B009A2A04 /* MbarkExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8BB3EB332705158B009A2A04 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					8BB3EB3A2705158B009A2A04 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = 8BB3EB362705158B009A2A04 /* Build configuration list for PBXProject "MbarkExample" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8BB3EB322705158B009A2A04;
+			packageReferences = (
+				8BE9CE2D27064F5500626FE8 /* XCRemoteSwiftPackageReference "mbark-sdk" */,
+			);
+			productRefGroup = 8BB3EB3C2705158B009A2A04 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8BB3EB3A2705158B009A2A04 /* MbarkExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8BB3EB392705158B009A2A04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BB3EB56270519AC009A2A04 /* Mbark-Info.plist in Resources */,
+				8BB3EB4B2705158C009A2A04 /* LaunchScreen.storyboard in Resources */,
+				8BB3EB482705158C009A2A04 /* Assets.xcassets in Resources */,
+				8BB3EB462705158B009A2A04 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8BB3EB372705158B009A2A04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BB3EB432705158B009A2A04 /* ViewController.swift in Sources */,
+				8BB3EB3F2705158B009A2A04 /* AppDelegate.swift in Sources */,
+				8BB3EB412705158B009A2A04 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8BB3EB442705158B009A2A04 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8BB3EB452705158B009A2A04 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8BB3EB492705158C009A2A04 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8BB3EB4A2705158C009A2A04 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8BB3EB4D2705158C009A2A04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8BB3EB4E2705158C009A2A04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8BB3EB502705158C009A2A04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U7QN58HQM8;
+				INFOPLIST_FILE = MbarkExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = co.mbark.MbarkExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8BB3EB512705158C009A2A04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U7QN58HQM8;
+				INFOPLIST_FILE = MbarkExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = co.mbark.MbarkExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8BB3EB362705158B009A2A04 /* Build configuration list for PBXProject "MbarkExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BB3EB4D2705158C009A2A04 /* Debug */,
+				8BB3EB4E2705158C009A2A04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8BB3EB4F2705158C009A2A04 /* Build configuration list for PBXNativeTarget "MbarkExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BB3EB502705158C009A2A04 /* Debug */,
+				8BB3EB512705158C009A2A04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		8BE9CE2D27064F5500626FE8 /* XCRemoteSwiftPackageReference "mbark-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/mbark-app-inc/mbark-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.3.9;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8BE9CE2E27064F5500626FE8 /* Mbark */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8BE9CE2D27064F5500626FE8 /* XCRemoteSwiftPackageReference "mbark-sdk" */;
+			productName = Mbark;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 8BB3EB332705158B009A2A04 /* Project object */;
+}
