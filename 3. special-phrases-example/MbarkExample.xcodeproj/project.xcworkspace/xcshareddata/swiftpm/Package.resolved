@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "Mbark",
+        "repositoryURL": "https://github.com/mbark-app-inc/mbark-sdk",
+        "state": {
+          "branch": null,
+          "revision": "2ab96fde12fe6a716fa17afb3eadf3035ddbf310",
+          "version": "1.4.2"
+        }
+      }
+    ]
+  },
+  "version": 1
+}

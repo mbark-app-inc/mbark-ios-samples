@@ -15,7 +15,7 @@ class ViewController: UIViewController {
   override func viewDidLoad() {
     super.viewDidLoad()
 
-    // Initialize the Mbark SDK.
+    /// Initialize the Mbark SDK.
     // Mbark.initializeSDK()
     Mbark.initializeSDK(instanceName: "intro", remoteConfigId: "demo-5-notice", developmentAPIKey: "API_KEY")
   }
