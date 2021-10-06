@@ -1,0 +1,49 @@
+{
+  "identifier" : "7BD2D108",
+  "nonRenewingSubscriptions" : [
+
+  ],
+  "products" : [
+
+  ],
+  "settings" : {
+
+  },
+  "subscriptionGroups" : [
+    {
+      "id" : "9F8DD777",
+      "localizations" : [
+
+      ],
+      "name" : "Mbark",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [
+
+          ],
+          "displayPrice" : "1.99",
+          "familyShareable" : true,
+          "groupNumber" : 1,
+          "internalID" : "C01C5D4E",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "",
+              "displayName" : "Mbark Premium",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "co.mbark.premium.monthly",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "Mbark Premium",
+          "subscriptionGroupID" : "9F8DD777",
+          "type" : "RecurringSubscription"
+        }
+      ]
+    }
+  ],
+  "version" : {
+    "major" : 1,
+    "minor" : 1
+  }
+}
