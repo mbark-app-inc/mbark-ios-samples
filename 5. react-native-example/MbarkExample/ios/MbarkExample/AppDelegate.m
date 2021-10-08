@@ -50,9 +50,17 @@ static void InitializeFlipper(UIApplication *application) {
       rootView.backgroundColor = [UIColor whiteColor];
   }
 
-  // Initialize Mbark SDK
-  [Mbark initializeSDKWithInstanceName:@"React-example"
+  // Initialize the Mbark SDK.
+  // The following remote flow is referred to for demo purposes. When integrating your own flow
+  // please comment out the following and call [Mbark initializeSDKWithInstanceName:selectedLanguage:] instead.
+  [Mbark initializeSDKWithInstanceName:@"intro"
+                        remoteConfigId:@"demo-2-short"
+                      productionAPIKey:nil
+                     developmentAPIKey:@"MBARK_API_KEY"
                       selectedLanguage:nil];
+
+//  [Mbark initializeSDKWithInstanceName:@"React-example"
+//                      selectedLanguage:nil];
 
   self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
   UIViewController *rootViewController = [UIViewController new];

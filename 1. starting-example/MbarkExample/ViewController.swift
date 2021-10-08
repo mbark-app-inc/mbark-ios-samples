@@ -15,9 +15,13 @@ class ViewController: UIViewController {
   override func viewDidLoad() {
     super.viewDidLoad()
 
-    /// Initialize the Mbark SDK.
+    // Initialize the Mbark SDK.
+    // The following remote flow is referred to for demo purposes. When integrating your own flow
+    // please comment out the following and call `Mbark.initializeSDK()` instead.
+    Mbark.initializeSDK(instanceName: "intro",
+                        remoteConfigId: "demo-2-short",
+                        developmentAPIKey: "MBARK_API_KEY")
     // Mbark.initializeSDK()
-    Mbark.initializeSDK(instanceName: "intro", remoteConfigId: "demo-5-notice", developmentAPIKey: "API_KEY")
   }
 
   @IBAction func launchMbarkFlow(_ sender: Any) {

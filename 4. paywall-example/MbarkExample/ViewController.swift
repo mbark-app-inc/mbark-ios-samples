@@ -40,8 +40,12 @@ class ViewController: UIViewController {
     super.viewDidLoad()
 
     // Initialize the Mbark SDK.
+    // The following remote flow is referred to for demo purposes. When integrating your own flow
+    // please comment out the following and call `Mbark.initializeSDK()` instead.
+    Mbark.initializeSDK(instanceName: "paywall",
+                        remoteConfigId: "demo-3-paywall",
+                        developmentAPIKey: "MBARK_API_KEY")
     // Mbark.initializeSDK()
-    Mbark.initializeSDK(instanceName: "paywall", remoteConfigId: "demo-3-paywall", developmentAPIKey: "API_KEY")
 
     // Add a tiebacks
     addTiebacks()
