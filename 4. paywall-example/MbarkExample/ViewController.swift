@@ -19,7 +19,7 @@ class ViewController: UIViewController {
     case purchase
   }
 
-  let store = PurchaseManager(withProductIds: ["co.mbark.premium.monthly"])
+  let store = PurchaseManager(withProductIds: ["paywall_spike_cons_monthly"])
 
   typealias TiebackCompletion = (() -> Void)?
 
@@ -43,7 +43,7 @@ class ViewController: UIViewController {
     // The following remote flow is referred to for demo purposes. When integrating your own flow
     // please comment out the following and call `Mbark.initializeSDK()` instead.
     Mbark.initializeSDK(instanceName: "paywall",
-                        remoteConfigId: "demo-3-paywall",
+                        remoteConfigId: "demo-1-basic",
                         developmentAPIKey: "MBARK_API_KEY")
     // Mbark.initializeSDK()
 

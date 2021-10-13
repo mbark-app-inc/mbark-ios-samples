@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8B17862E27178BE700CBD454 /* StoreKitTestCertificate.cer in Resources */ = {isa = PBXBuildFile; fileRef = 8B17862D27178BE700CBD454 /* StoreKitTestCertificate.cer */; };
 		8B5B580D270D3E470064DB1D /* PurchaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5B580C270D3E470064DB1D /* PurchaseManager.swift */; };
 		8B5B5810270D4F0A0064DB1D /* InAppPurchaseReceipt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5B580F270D4F0A0064DB1D /* InAppPurchaseReceipt.swift */; };
 		8B5B5812270D4FBF0064DB1D /* ASN1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5B5811270D4FBF0064DB1D /* ASN1.swift */; };
@@ -14,7 +15,6 @@
 		8B5B598C270D589C0064DB1D /* opensslconf.h.orig in Resources */ = {isa = PBXBuildFile; fileRef = 8B5B5932270D589C0064DB1D /* opensslconf.h.orig */; };
 		8B5B598D270D589C0064DB1D /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B5B598A270D589C0064DB1D /* libcrypto.a */; };
 		8B5B598E270D589C0064DB1D /* libssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B5B598B270D589C0064DB1D /* libssl.a */; };
-		8B5B5991270D5A2A0064DB1D /* StoreKitTestCertificate.cer in Resources */ = {isa = PBXBuildFile; fileRef = 8B5B5990270D5A2A0064DB1D /* StoreKitTestCertificate.cer */; };
 		8BB3EB3F2705158B009A2A04 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB3EB3E2705158B009A2A04 /* AppDelegate.swift */; };
 		8BB3EB412705158B009A2A04 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB3EB402705158B009A2A04 /* SceneDelegate.swift */; };
 		8BB3EB432705158B009A2A04 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB3EB422705158B009A2A04 /* ViewController.swift */; };
@@ -26,6 +26,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8B17862D27178BE700CBD454 /* StoreKitTestCertificate.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = StoreKitTestCertificate.cer; sourceTree = "<group>"; };
 		8B5B580C270D3E470064DB1D /* PurchaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseManager.swift; sourceTree = "<group>"; };
 		8B5B580F270D4F0A0064DB1D /* InAppPurchaseReceipt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InAppPurchaseReceipt.swift; sourceTree = "<group>"; };
 		8B5B5811270D4FBF0064DB1D /* ASN1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ASN1.swift; sourceTree = "<group>"; };
@@ -139,7 +140,6 @@
 		8B5B5988270D589C0064DB1D /* asn1err.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = asn1err.h; sourceTree = "<group>"; };
 		8B5B598A270D589C0064DB1D /* libcrypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libcrypto.a; sourceTree = "<group>"; };
 		8B5B598B270D589C0064DB1D /* libssl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libssl.a; sourceTree = "<group>"; };
-		8B5B5990270D5A2A0064DB1D /* StoreKitTestCertificate.cer */ = {isa = PBXFileReference; lastKnownFileType = file; name = StoreKitTestCertificate.cer; path = MbarkExample/Certificates/StoreKitTestCertificate.cer; sourceTree = SOURCE_ROOT; };
 		8BB3EB3B2705158B009A2A04 /* MbarkExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MbarkExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BB3EB3E2705158B009A2A04 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8BB3EB402705158B009A2A04 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -316,13 +316,6 @@
 			path = lib;
 			sourceTree = "<group>";
 		};
-		8B5B598F270D59DF0064DB1D /* Certificates */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Certificates;
-			sourceTree = "<group>";
-		};
 		8BB3EB322705158B009A2A04 = {
 			isa = PBXGroup;
 			children = (
@@ -343,7 +336,6 @@
 		8BB3EB3D2705158B009A2A04 /* MbarkExample */ = {
 			isa = PBXGroup;
 			children = (
-				8B5B598F270D59DF0064DB1D /* Certificates */,
 				8B5B591C270D589C0064DB1D /* OpenSSL */,
 				8B5B580E270D4EF90064DB1D /* IAP */,
 				8BCA1821270CE45D00CB1310 /* StoreKit */,
@@ -363,7 +355,7 @@
 			isa = PBXGroup;
 			children = (
 				8BCA1822270CE47F00CB1310 /* Subscriptions.storekit */,
-				8B5B5990270D5A2A0064DB1D /* StoreKitTestCertificate.cer */,
+				8B17862D27178BE700CBD454 /* StoreKitTestCertificate.cer */,
 			);
 			path = StoreKit;
 			sourceTree = "<group>";
@@ -437,7 +429,7 @@
 				8B5B598C270D589C0064DB1D /* opensslconf.h.orig in Resources */,
 				8BB3EB482705158C009A2A04 /* Assets.xcassets in Resources */,
 				8BB3EB462705158B009A2A04 /* Main.storyboard in Resources */,
-				8B5B5991270D5A2A0064DB1D /* StoreKitTestCertificate.cer in Resources */,
+				8B17862E27178BE700CBD454 /* StoreKitTestCertificate.cer in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

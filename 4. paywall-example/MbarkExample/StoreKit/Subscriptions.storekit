@@ -33,7 +33,7 @@
               "locale" : "en_US"
             }
           ],
-          "productID" : "co.mbark.premium.monthly",
+          "productID" : "paywall_spike_cons_monthly",
           "recurringSubscriptionPeriod" : "P1M",
           "referenceName" : "Mbark Premium",
           "subscriptionGroupID" : "9F8DD777",
