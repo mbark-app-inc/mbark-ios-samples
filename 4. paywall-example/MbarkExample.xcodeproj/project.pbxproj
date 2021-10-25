@@ -670,7 +670,7 @@
 			repositoryURL = "https://github.com/mbark-app-inc/mbark-sdk";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 1.4.8;
+				minimumVersion = 1.4.9;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
